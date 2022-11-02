@@ -1,0 +1,21 @@
+Ques 1)Delete all the files having the .log extension-
+Ans: firs we have to find all the .log file and then we can delete it
+find .name "*.log" -type f //this will give all the files with the extension of .log
+find .name "*.log" -type f -delete
+
+Ques 2)Add the following content to a.txt
+Ans: first of all we have to go hello/one/a.txt directory and then we can give this command "nano a.txt" 
+nano a.txt // open text editor and then we can edit this file 
+Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others
+After that "ctrl+x" for escape and then type  yes for changes file
+
+Ques 3)Delete the directory named five
+Ans: rmdir five //by this command five directory wont delete because its not empty we have to give different command like this
+rm -R five // it will delete 
+
+Ques 4)Rename the one directory to uno
+Ans: rm one uno
+
+Ques 5)Move a.txt to the two directory
+Ans: mv a.txt hello/one/two
+mv source destination
